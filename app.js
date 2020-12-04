@@ -23,8 +23,20 @@ app.get('/about', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.render('contact', {contactLorumIpsum: contactStartingContent})
-})
+});
 
+app.get('/compose', (req, res) => {
+    res.render('compose')
+
+    app.post('/compose', (req, res) => {
+        const postTitle = req.body.postTitle;
+        console.log(postTitle);
+    });
+});
+
+app.post('/compose', (req, res) => {
+    
+});
 
 app.listen(3000, () => {
     console.log('Server running on port 3000');
