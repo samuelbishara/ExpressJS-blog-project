@@ -1,0 +1,19 @@
+{
+  "name": "expressjs-blog-project",
+  "version": "1.0.0",
+  "description": "This is a basic blog web application built using EJS for templating, Node.Js with express for back-end functionality, and MongoDB for the database. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelbishara/ExpressJS-blog-project.git"
+  },
+  "author": "Sam Bishara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelbishara/ExpressJS-blog-project/issues"
+  },
+  "homepage": "https://github.com/samuelbishara/ExpressJS-blog-project#readme"
+}
