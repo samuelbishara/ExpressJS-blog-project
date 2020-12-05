@@ -1,7 +1,15 @@
 <%- include('partials/header'); -%>
 
 <h1>Home</h1>
-<p> <%= homeLorumIpsum %></p>
+
+<% postsArray.forEach((post)=> { %>
+
+<h3> <%= post.title %> </h3>
+<p> <%= post.body %> </p>
+
+<% }); %>
+
+
 
 <!-- <%- include('partials/footer'); -%> -->
 
