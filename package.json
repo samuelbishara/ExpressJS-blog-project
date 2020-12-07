@@ -12,6 +12,13 @@
   },
   "author": "Sam Bishara",
   "license": "ISC",
+  "dependencies": {
+    "ejs": "3.1.5",
+    "express": "4.17.1",
+    "body-parser": "1.19.0",
+    "mongoose": "5.11.4",
+    "lodash": "4.17.20"
+  },
   "bugs": {
     "url": "https://github.com/samuelbishara/ExpressJS-blog-project/issues"
   },
